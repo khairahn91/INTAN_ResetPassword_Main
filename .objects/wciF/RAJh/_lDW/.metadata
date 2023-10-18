@@ -1,0 +1,15 @@
+﻿{
+  "Id": "_lDWqCUmVEGbuDSzVb5jow",
+  "Reference": "Zfc4LCcD9kKg3X_SR-nS2A/_lDWqCUmVEGbuDSzVb5jow",
+  "ParentRef": "Zfc4LCcD9kKg3X_SR-nS2A/RAJhTFMGL0Kscc2eudJzfQ",
+  "Name": "User Search Filter",
+  "Type": "Screen",
+  "Created": "2023-09-02T14:47:31.0918309Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-09-02T14:47:31.4832871Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

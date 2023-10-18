@@ -1,0 +1,14 @@
+﻿{
+  "Id": "49C5E2olZkymDc8aFeLmXQ",
+  "Reference": "Zfc4LCcD9kKg3X_SR-nS2A/49C5E2olZkymDc8aFeLmXQ",
+  "ParentRef": "Zfc4LCcD9kKg3X_SR-nS2A/_lDWqCUmVEGbuDSzVb5jow",
+  "Name": "Check App State Active Filter Exist",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-09-02T14:47:44.2331225Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=23.4.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-09-02T14:47:44.2331225Z"
+}

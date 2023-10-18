@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="CGGl3XAvaEeeNy8DqAuXwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAIySURBVDhPfZNfSFNxFMfv7r9GLpelhLF8CfIhEiJ6MNjaIggiobdAa7uzW/fezdqa0ktEEKUk1KIiiCgRYkE1SqoxKiid+iD50FtkjpCKhERSEWob33733EYZl3vgcPid8/19zu9c7uHArFQqmQGapoHjOEiSCJeLIzfPpouiSFHXddJW76wEsKIFkNhlF7kg8BBEHqvcMtXMJqbZAoyYQaKNvnXwNdViQ6MHvMBgnNldxPp6D3r7zpG2XC5T/G8EC3D+YivS1/eit9+PrmQLtPgWJLqbsX1nLbp7ekhrC1CPaZDcHN5/yODnr28ofsphKBfEg8c7MPkugf0HtqG9QyGt7QjRzk6s8XqxtLSIqekRVCplTBdf4tbdZoyMncbuPZsRVlTS2gIUJYy6ukYUxq/hyo3VmJjsp3zm4T4Mj56CP+hDOOIAiEYV1NR4MD//BT8WZrCw+JXy2aEwXhd0BEKbnAGKEoHXW4+Jt4N48kzF83wKT3MnMZgJ4M3oCQZowhFHAHuBd20DZj4XcD+7Cx+LWczNTWHgXiuGx3RrBKdvcFRVIbvdmJ39Tufl5QryL9K4eXsr8q8i8Ica2AjHqWYLiMXj9B/0XUriUTaNOwMXcPnqIZw528ZyHVQz4l2ktQUYsRiJ2g/7oWohBIIt7EIbEqmDSKYsgM6amGYL0A3rT5RkGS5eAMd2geOsnTD3g17AmphmC/i7jdYy8TzzP1GWLYDjMlUB1dX916u5lQDgN3SdvLLduUYeAAAAAElFTkSuQmCC" Selector="&lt;html app='chrome.exe' title='Laman Utama EPSA: Administration: Users: Accounts: Browse list of users' /&gt;" Title="Laman Utama EPSA: Administration: Users: Accounts: Browse list of users" Url="https://demo.epsa.gov.my/admin/user.php">
+      <imageRef attrName="InformativeScreenshot" originalValue="23e393d465dc9a551bba3833fdc7e2bf.jpg" xmlns="">0nIahiJlaj0e-Ts8QW8FpYg</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

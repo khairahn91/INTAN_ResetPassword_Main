@@ -1,0 +1,123 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="EPSA_Login" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="651,944" sap2010:WorkflowViewState.IdRef="EPSA_Login_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="EPSA_Login" sap:VirtualizedContainerService.HintSize="476,879" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Dashboard" sap:VirtualizedContainerService.HintSize="434,787" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" ScopeGuid="902eff0d-55f2-4331-a291-860d03a6a381" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,570" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'IMG'" sap:VirtualizedContainerService.HintSize="334,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="902eff0d-55f2-4331-a291-860d03a6a381" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://demo.epsa.gov.my/my/" DesignTimeRectangle="2497, 248, 50, 50" DesignTimeScaleFactor="1" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl class='rounded-circle' parentid='page-content' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl class='rounded-circle' parentid='page-content' tag='IMG' type='' aaname='rpa faveo' /&gt;" Guid="2cefbc23-7d62-4eb8-b77c-cfca85c9ad15" ImageBase64="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" InformativeScreenshot="f51c58986a6553ade5de8d51d44a6db7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log out'" sap:VirtualizedContainerService.HintSize="334,157" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="902eff0d-55f2-4331-a291-860d03a6a381" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://demo.epsa.gov.my/my/" DesignTimeRectangle="2264, 656, 240, 59" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Log out'" FullSelectorArgument="&lt;webctrl aaname=' Log out' class='dropdown-item' parentid='yui_3_17_2_1_1697591952817_83' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Log out' class='dropdown-item' parentid='yui_3_17_2_1_1697591952817_83' tag='A' type='' check:innerText='Log out' /&gt;" Guid="bdc767a9-d422-4209-9013-d02eb6091e3b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAPQAAAA/CAYAAADXAOWJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAT2SURBVHhe7dvLK21vHMfx39g/YGBmpEwYSDKgJCIUJSUZkGsGShHhkFCumSi5TXTIgDpkIJcM5FLuqYN25JaEXCOX76/PY6392w57u/1i7+d8XrU61rKsY5/Oez3Pejb/CBFpwxq0xWLhxo2bi24mjtBEGmHQRBph0EQaYdBEGmHQRBph0EQaYdBEGmHQRBph0EQaYdBEGmHQRBph0EQaYdBEGmHQRBph0EQaYdBEGmHQRBph0EQaYdBEGmHQRBp5FnR3d7e4ublJVVWVcYSIXIU1aASMkBE0/Pr1SwoLC9Ux221yclJ9noicjzXokZER46NHCPrq6srYe4R9HP+og4MD2d3dNfaI6P/2pUFjFuDqU/nb21u5uLgw9oicC4N+p97eXsnJyXn2b0PkDD4c9NramjQ1NamP30qHoLHGwKDJWX1qhMYC2XsCfUvQh4eHUl5eLgEBARIcHCy1tbVyfHxsfPbR5uamFBQUiK+vr8TExMj4+Li0tbVJR0eHccZz9/f3Mjo6KnFxceLj4yNJSUkyMTEhDw8P6vM3NzfqexseHlb7JuzX19fLycmJ5Obmqu/Ly8tLIiMjJTY2Vqampowzib7fs6DNaF8K+iXvifq1oLFolpCQII2NjerjnZ0d+fHjh2RmZsrZ2Zk6BzGHhYVZz8FWV1enQrN3bUTb09Oj4p+dnZWjoyN1EwgJCXnyujHymqv8JnNEvry8lNPTU2lvb5f09HS1uIfr4EZA5CwcBr24uCj+/v7P3rqy3aKioiQ5OVn9537Na0F3dnZKWlrak0UnjIyIfGBgQO23trZKXl6eXF9fq31A7KmpqXavvb+/r77PsbEx48ij/v5+SUxMVKG+FrR5c+OUm5zZp6bceI7Ge9Vv/c/tKOi7uzspKSlRwdrC6FpRUSE1NTV2zwFH115eXlZT7b29PePIo9+/f0t0dLRsbGyo18CgydV9alHsPTGDo+gwdc3Pz5euri7jyH/Mr/to0HNzc+p5F8/ntvAaMHLjT7wOBk2u7lMj9Hs5ig6wal5UVKTe6zWdn59LSkqKersIMC3H9Np8pgZzWm7v2ltbW2okXlhYMI48wmtG6Pj6l4LG7KC6uvpJwJj6Z2VlqWdqImfz5UGXlpaq523bDUEh4vX1dQkPD5ehoSG1Ko3t58+fakXZ/AkzLILFx8er0RxTZWzFxcXqWd9e0BjZGxoaJDs72zpK43q4Dha5zJVu3FAQK24iODYzM6NW2m2DxmgfGBgo8/Pzap/ImXxp0M3NzS8urGEzR+Dp6WkJDQ0Vb29v9fYQRl4869pClHg7C9NlBLi0tCSVlZUOR38stOFZ3NPTU/z8/NS1W1paniyu4boZGRnq+3F3d5eysjL1VhhuHuZqNm48+DoPDw91Hp7tiZyFNWjEYPuLFwj3O385A6PknzcUexw9W/8JQWJVG6O/PbZ/N86zfQQwIXBcxxzdiZyBNWhA1Ga4jka777S9va2m2CsrKyo0bIODgxIUFCSrq6vGWUR/pydBuwJMkfv6+tQPiWBajJtPRESE+kERjpb0t3O5oInIPgZNpBEGTaQRBk2kEQZNpBEGTaQRBk2kEQZNpBEGTaQRBk2kEQZNpBEGTaQRBk2kEQZNpBEGTaQRBk2kEQZNpBEGTaQRBk2kEQZNpBEGTaQRa9AWi4UbN24uupk4QhNphEETaUPkX3uCxxbYcQbXAAAAAElFTkSuQmCC" InformativeScreenshot="64e5eb6a02d5ea1dad51384c3673147f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dashboard' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NNavigateBrowser Action="CloseTab" DisplayName="Navigate Browser - Close Tab" sap:VirtualizedContainerService.HintSize="334,82" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1" Version="V3" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAAAIySURBVDhPfZNfSFNxFMfv7r9GLpelhLF8CfIhEiJ6MNjaIggiobdAa7uzW/fezdqa0ktEEKUk1KIiiCgRYkE1SqoxKiid+iD50FtkjpCKhERSEWob33733EYZl3vgcPid8/19zu9c7uHArFQqmQGapoHjOEiSCJeLIzfPpouiSFHXddJW76wEsKIFkNhlF7kg8BBEHqvcMtXMJqbZAoyYQaKNvnXwNdViQ6MHvMBgnNldxPp6D3r7zpG2XC5T/G8EC3D+YivS1/eit9+PrmQLtPgWJLqbsX1nLbp7ekhrC1CPaZDcHN5/yODnr28ofsphKBfEg8c7MPkugf0HtqG9QyGt7QjRzk6s8XqxtLSIqekRVCplTBdf4tbdZoyMncbuPZsRVlTS2gIUJYy6ukYUxq/hyo3VmJjsp3zm4T4Mj56CP+hDOOIAiEYV1NR4MD//BT8WZrCw+JXy2aEwXhd0BEKbnAGKEoHXW4+Jt4N48kzF83wKT3MnMZgJ4M3oCQZowhFHAHuBd20DZj4XcD+7Cx+LWczNTWHgXiuGx3RrBKdvcFRVIbvdmJ39Tufl5QryL9K4eXsr8q8i8Ica2AjHqWYLiMXj9B/0XUriUTaNOwMXcPnqIZw528ZyHVQz4l2ktQUYsRiJ2g/7oWohBIIt7EIbEqmDSKYsgM6amGYL0A3rT5RkGS5eAMd2geOsnTD3g17AmphmC/i7jdYy8TzzP1GWLYDjMlUB1dX916u5lQDgN3SdvLLduUYeAAAAAElFTkSuQmCC" InformativeScreenshot="c4eae7b82ad0240e229167af708f4a69.jpg" Selector="&lt;html app='chrome.exe' title='Dashboard' /&gt;" Title="Dashboard" Url="https://demo.epsa.gov.my/my/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
