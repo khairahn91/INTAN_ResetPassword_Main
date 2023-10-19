@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>870,751</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>873,751</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Send_Email_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="33">
@@ -99,7 +99,11 @@
   <Sequence DisplayName="Send_Email" sap:VirtualizedContainerService.HintSize="563,686" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="html_Notification" />
-      <Variable x:TypeArguments="x:Boolean" Default="True" Name="isDebug" />
+      <Variable x:TypeArguments="x:Boolean" Name="isDebug">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Boolean" />
+        </Variable.Default>
+      </Variable>
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
