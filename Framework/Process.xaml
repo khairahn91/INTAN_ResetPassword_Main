@@ -18,7 +18,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1019,833</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>390,833</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="31">
@@ -119,24 +119,23 @@
     <ui:LogMessage DisplayName="Log Message Process Start" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Started Process&quot;]" />
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="FAVEO - Submit a Ticket.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Business Functions\FAVEO - Submit a Ticket.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="email">[in_emel_Pengguna]</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="user_id">[in_id_Pengguna]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="email">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_emel_Pengguna" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="user_id">
+          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_id_Pengguna" />
+        </InArgument>
+        <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_config">
+          <VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" ExpressionText="in_Config" />
+        </InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="EPSA- Reset Password.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Business Functions\EPSA- Reset Password.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_EPSA_URL">
-          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;str_EPSA_URL&quot;).ToString" />
-        </InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_Ic_Number">
-          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_ic_Pengguna" />
-        </InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_str_Password">
-          <VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Config(&quot;str_Password&quot;).ToString" />
-        </InArgument>
-        <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">
-          <VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" ExpressionText="in_Config" />
-        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_EPSA_URL">[in_Config("str_EPSA_URL").ToString]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Ic_Number">[in_ic_Pengguna]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_str_Password">[in_Config("str_Password").ToString]</InArgument>
+        <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Business Functions\Send Email.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Business Functions\Send Email.xaml">

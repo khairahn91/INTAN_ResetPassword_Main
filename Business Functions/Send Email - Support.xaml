@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>870,751</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>744,751</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Send_Email_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="33">
@@ -115,7 +115,6 @@
           <umabh:HtmlContentArgument.ValueMappings>
             <scg:List x:TypeArguments="umabh:HtmlValueMappingBase" Capacity="4">
               <umabh:HtmlTextValueMapping Name="ic_pengguna" Value="[in_ic_pengguna]" />
-              <umabh:HtmlTextValueMapping Name="passwoerd" Value="[in_Config(&quot;str_Password&quot;).ToString]" />
             </scg:List>
           </umabh:HtmlContentArgument.ValueMappings>
         </umabh:HtmlContentArgument>
